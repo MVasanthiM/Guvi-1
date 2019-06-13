@@ -1,10 +1,10 @@
-sr,er=map(int,input().split())
-for num in range(sr+1,er):
-  sum=0
-  temp=num
-  while(temp>0):
-    d=temp%10
-    sum+=d**3
-    temp//=10
-  if(num==sum):
-    print(num,end=' ')
+s,e=map(int,input().split())
+for n in range(s+1,e):
+  s=0
+  t=n
+  while(t>0):
+    d=t%10
+    s+=d**3
+    t//=10
+  if(n==s):
+    print(n,end=' ')
